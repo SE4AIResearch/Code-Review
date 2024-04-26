@@ -83,14 +83,19 @@
 
 
     <div class="col-sm-8 text-left">
-      <h1>Code Review Practices for Refactoring Changes: An Empirical Study on OpenStack</h1>
+      <h1>What Does Refactor Branch Tell Us: An Empirical Study
+on Qt</h1>
       <hr>
-      <p>Understanding the practice of refactoring code review is
-of paramount importance to the research community and industry. Although Modern Code Review (MCR) is widely adopted in open-source and industrial projects, the relationship between code review and refactoring practice remains largely unexplored. In this study, we performed a quantitative and qualitative study to investigate the challenges faced by developers when reviewing refactorings.</p><br>
+      <p>Modern code review is a widely employed technique in both industrial and open-source projects, serving to enhance software quality, share knowledge, and ensure compliance with coding standards and guidelines. While code review extensively studied for its general challenges, best practices, outcomes, and socio-technical aspects, little attention has been paid to how refactoring is reviewed and what developers prioritize when reviewing refactored code in the `Refactor' branch. In this study, we present a quantitative and qualitative examination to elucidate the main criteria developers use to decide whether to accept or reject refactored code submissions and identify the challenges inherent in this process. Analyzing 2,154 refactoring and non-refactoring reviews across Qt open-source projects, we find that reviews involving refactoring take significantly less time to resolve in terms of code review efforts. Additionally, documentation of developer intent is notably sparse within the `Refactor' branch compared to other branches. Furthermore, through thematic analysis of a substantial sample of refactoring code review discussions, we construct a comprehensive taxonomy consisting of 12 refactoring review criteria. We believe our findings underscore the importance of developing precise and efficient tools and techniques to aid developers in the review process amidst refactorings.</p><br>
       <p>More specifically, the research questions that we investigated are:</p>
       <p><strong>RQ1. How do refactoring reviews compare to non-refactoring reviews in terms of code review efforts?</strong></p>
       <p>This research question compares refactoring and non-refactoring reviews based on set of metrics. As we calculate the metrics of refactoring and non-refactoring reviews, we want to distinguish, for each metric, whether the variation is statistically significant. </p>
-	  <p><strong>RQ2. What are the criteria that mostly associated with refactoring review decision?</strong></p>
+   <p><strong>RQ2. What quality attributes do developers consider 504
+when describing refactoring in the ‘Refactor’ branch?</strong></p>
+      <p>This research question explores the review criteria to assess refactoring changes.</p>
+<p><strong>RQ3. What textual patterns do developers use to describe their refactoring needs in the ‘Refactor’ branch?</strong></p>
+      <p>This research question explores the review criteria to assess refactoring changes.</p>
+	  <p><strong>RQ4. What are the criteria that mostly associated with refactoring review decision?</strong></p>
       <p>This research question explores the review criteria to assess refactoring changes.</p>
 </br>
 <hr>
@@ -131,12 +136,10 @@ A replication package containing both the datasets and the scripts that were use
   <li><i>"preliminary_analysis.ipynb"</i> - The Python Jupyter Notebook script that was used for the data collection process (i.e., refactoring reviews). </li>
   <li><i>"Code_reviews_analysis.ipynb"</i> - The Python Jupyter Notebook script that was used to obtain code review mining results. </li>
   <li><i>"projects_stats.ipynb"</i> - The Python Jupyter Notebook script that was used to obtain code repositories statistics. </li>
-  <li><i>"Openstack-20211024T162557Z-004.zip"</i> - A zip file containing all of the cloned OpenStack repositories. </li>
-  <li><i>"Openstack_results_v2.sqlite"</i> - The final dataset that was produced after the data preparation process. </li>
-  <li><i>"RQ1.csv"</i> - The dataset that was produced to answer the first research question along with the metrics definition and correlation analysis. </li>
-  <li><i>"RQ2.csv"</i> - The dataset that was produced to answer the second research question. </li>
-  <li><i>"Survey.pdf"</i> - List of survey questions used for the external validation. </li>
-  <li><i>"Transcript.pdf"</i> - Interview transcript for the external validation. </li>
+  <li><i>"RQ1.xlsx"</i> - The dataset that was produced to answer the first research question along with the metrics definition and correlation analysis. </li>
+<li><i>"RQ2.xlsx"</i> - The dataset that was produced to answer the second research question. </li>
+<li><i>"RQ3.xlsx"</i> - The dataset that was produced to answer the third research question. </li>
+  <li><i>"RQ4.xlsx"</i> - The dataset that was produced to answer the fourth research question. </li>
 </ul> 
 
 <p>If you are interested to learn more about the process we followed, please refer to our paper.</p>
